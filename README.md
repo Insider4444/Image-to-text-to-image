@@ -20,7 +20,7 @@ This is a command-line tool written in Python for encrypting and decrypting imag
 1. Clone the repository to your local machine.
 2. Install the required libraries using the `requirements.txt` file: `pip install -r requirements.txt`.
 3. Navigate to the repository directory in your terminal or command prompt.
-4. Run the `image_encryption_tool.py` file: `python image_encryption_tool.py`.
+4. Run the `Image-Encrypt-4444-v4.py` file: `python Image-Encrypt-4444-v4.py`.
 
 ## Code Explanation
 
