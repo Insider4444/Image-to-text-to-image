@@ -14,6 +14,7 @@ This is a command-line tool written in Python for encrypting and decrypting imag
 - Cryptodome library (`pip install pycryptodomex`)
 - tqdm library (`pip install tqdm`)
 - termcolor library (`pip install termcolor`)
+- rich library (`pip install rich`)
 
 ## Usage
 
