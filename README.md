@@ -1,4 +1,4 @@
-# Image Encryption/Decryption Tool
+# Image Encryption/Decryption Tool By 4444 & Cp6E
 
 This is a command-line tool written in Python for encrypting and decrypting images using the Advanced Encryption Standard (AES) algorithm. The tool uses the `Cryptodome` library for AES encryption and the `tqdm` library for progress bars.
 
