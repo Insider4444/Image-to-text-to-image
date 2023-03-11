@@ -36,4 +36,9 @@ The following is a brief explanation of the code:
 ## Credits
 
 This tool was created by Team 4444 and CP6E as part of a Mini project @SITAMS
+Made By
+- [@Insider4444](https://www.github.com/Insider4444)
+- M Lakhsmi Kanth
+- U Mukesh
+- S Mohammed Khadeer
 
