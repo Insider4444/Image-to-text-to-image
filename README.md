@@ -15,12 +15,13 @@ This is a command-line tool written in Python for encrypting and decrypting imag
 - tqdm library (`pip install tqdm`)
 - termcolor library (`pip install termcolor`)
 - rich library (`pip install rich`)
+- or Install All Requirements by Just Running (`pip install -r requirements.txt`)
 
 ## Usage
 
-1. Clone the repository to your local machine.
-2. Install the required libraries using the `requirements.txt` file: `pip install -r requirements.txt`.
-3. Navigate to the repository directory in your terminal or command prompt.
+1. Clone the repository to your local machine. by (`git clone https://github.com/Insider4444/Image-to-text-to-image`)
+2. Navigate to the repository directory in your terminal or command prompt.by (`cd Image-to-text-to-image`)
+3. Install the required libraries using the `requirements.txt` file: `pip install -r requirements.txt`.
 4. Run the `Image-Encrypt-4444-v4.py` file: `python Image-Encrypt-4444-v4.py`.
 
 ## Code Explanation
