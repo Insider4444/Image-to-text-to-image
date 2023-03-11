@@ -10,7 +10,7 @@ This is a command-line tool written in Python for encrypting and decrypting imag
 
 ## Requirements
 
-- Python 3.x
+- Python 3.x [Here](https://www.python.org/downloads/)
 - Cryptodome library (`pip install pycryptodomex`)
 - tqdm library (`pip install tqdm`)
 - termcolor library (`pip install termcolor`)
