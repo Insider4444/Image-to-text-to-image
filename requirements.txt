@@ -2,6 +2,4 @@ Cryptodome
 termcolor
 tqdm
 rich
-pycryptodomex==3.17
-termcolor==2.2.0
-tqdm==4.64.1
+pycryptodomex
