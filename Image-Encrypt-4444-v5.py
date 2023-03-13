@@ -13,7 +13,7 @@ KEY_SIZE = 32
 
 
 def get_aes_key():
-    key = Prompt.ask("Enter Encryption Key")
+    key = Prompt.ask("Enter [bold green underline]Encryption[/] Key")
     return key
 
 
