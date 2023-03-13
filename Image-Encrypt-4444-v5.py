@@ -6,6 +6,7 @@ from rich.console import Console
 from rich.prompt import Prompt
 from rich.panel import Panel
 from rich.text import Text
+from rich.style import Style
 
 
 BLOCK_SIZE = 16
@@ -72,7 +73,8 @@ progress = Progress(
     BarColumn(),
     "[progress.percentage]{task.percentage:>3.0f}%",
     TimeRemainingColumn(),
-)
+) 
+
 
 
 def display_menu():
@@ -110,6 +112,9 @@ def main():
             console.clear()
             console.print("Thanks for using our tool", style="bold red")
             console.print("4444 & CP6E", style="cyan")
+            names = ["P Bhargav Sai - 20751A3340", "M Lakshmi kanth - 20751A3334", "U Mukesh - 20751A3355", "S Mohammed Khadeer - 20751A3351"]
+            panel = Panel(Text("\n".join(names), style=Style.parse('cyan bold'), justify='left'), title=Text("Project Made by", style=Style(bgcolor='red', color='white')), width=50)
+            console.print(panel)
             break
         else:
             input("Invalid choice. Press Enter to continue...")
