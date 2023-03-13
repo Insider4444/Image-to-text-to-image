@@ -13,7 +13,7 @@ KEY_SIZE = 32
 
 
 def get_aes_key():
-    key = Prompt.ask("Enter encryption key:")
+    key = Prompt.ask("Enter Encryption Key")
     return key
 
 
@@ -93,14 +93,16 @@ def main():
         display_menu()
         choice = Prompt.ask("Enter your choice (1-3):", choices=["1", "2", "3"])
         if choice == '1':
-            filename = Prompt.ask("Enter image filename (with extension):", default="")
+            filename = Prompt.ask("Enter image filename (with extension)", default="")
+            filename = filename.strip("\"'")
             key = get_aes_key()
             encrypt_image(filename, key)
             input("Press Enter to continue...")
         elif choice == '2':
-            filename = Prompt.ask("Enter encrypted image filename (with extension):", default="")
+            filename = Prompt.ask("Enter encrypted image filename (with extension)", default="")
+            filename = filename.strip("\"'")
             while True:
-                key = Prompt.ask("Enter key:", password=True, default="")
+                key = Prompt.ask("Enter key", password=True, default="")
                 if decrypt_text(filename, key):
                     input("Press Enter to continue...")
                     break
