@@ -111,7 +111,7 @@ def main():
         elif choice == '3':
             console.clear()
             console.print("Thanks for using our tool", style="bold red")
-            console.print("4444 & CP6E", style="cyan")
+            console.print("4444 & CP6E", style="bold cyan on black")
             names = ["P Bhargav Sai - 20751A3340", "M Lakshmi kanth - 20751A3334", "U Mukesh - 20751A3355", "S Mohammed Khadeer - 20751A3351"]
             panel = Panel(Text("\n".join(names), style=Style.parse('cyan bold'), justify='left'), title=Text("Project Made by", style=Style(bgcolor='red', color='white')), width=50)
             console.print(panel)
